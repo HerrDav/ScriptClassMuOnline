@@ -2,7 +2,7 @@
 # Mu Online Character Class Lookup
 
 ## Overview
-This project provides a SQL Server function designed to retrieve the full name of the character class based on the character's name in a Mu Online server database. It is designed to be adaptable for future versions of Mu Online, including Season 19 and beyond.
+This project provides a SQL Server function designed to retrieve the full name of the character class based on the character's name in a Mu Online server database.
 ## Function Details
 - **Function Name:** `GetNameClass` and `GetShortClass`
 
