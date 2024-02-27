@@ -13,6 +13,7 @@ This project provides a SQL Server function designed to retrieve the full name o
 **Description:** This function takes the character name as input and queries the Mu Online server database to retrieve the corresponding class name based on the character's name.
 ## Supported Versions
 This project is compatible with the following versions of Mu Online:
+
 **IGCN**
 - Season 18
 ## Usage
