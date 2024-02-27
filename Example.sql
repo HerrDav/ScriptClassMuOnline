@@ -6,4 +6,4 @@ SELECT
 	dbo.GetShortClass(Name) as ShortNameClass, 
 	dbo.GetNameClass(Name) as LongNameClass 
 	FROM 
-		[Character]
+		[Character] WITH(NOLOCK)

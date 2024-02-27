@@ -3,7 +3,7 @@
 -- Description:	<Função para Capturar o nome pequeno da Classe do usuário (Parametro e o nome do usuário)>
 -- =============================================
 
-CREATE FUNCTION [dbo].[GetShortClass](@Nome NVARCHAR(10))
+CREATE OR ALTER FUNCTION [dbo].[GetShortClass](@Nome NVARCHAR(10))
 RETURNS NVARCHAR(10)
 AS
 BEGIN
