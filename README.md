@@ -16,6 +16,7 @@ This project is compatible with the following versions of Mu Online:
 
 **IGCN**
 - Season 18
+- Season 19 (Currently only the *"GetNameClass"* Function)
 ## Usage
 To use this function, simply call it with the character name as the parameter, and it will return name of the character's class.
 
