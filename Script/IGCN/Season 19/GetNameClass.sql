@@ -78,7 +78,7 @@ BEGIN
 		WHEN Class = 215 THEN 'Mystic Knight'
 		WHEN Class = 223 THEN 'Phantom Pain Knight'
 		END
-    FROM CHARACTER
+    FROM CHARACTER WITH(NOLOCK)
     WHERE NAME = @Nome
 
     RETURN @NameClass
